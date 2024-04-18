@@ -1,0 +1,16 @@
+{
+  "contracts": {
+    "RegistryContractAddress": "0xB4fA0c161CA7311c9f5F8145559465E4810F3ba2",
+    "SingerContractAddress": "0x27728eC32C8e43fd07160FDc981731F98EF1a84F"
+  },
+  "ethereum": {
+    "Address": "ws://127.0.0.1:8545",
+    "chainID": 1337
+  },
+  "ta": "127.0.0.1:9997",
+  "kafka": {
+    "ipAddress": "127.0.0.1:9092",
+    "topic": "sm2Schemes",
+    "partition": 0
+  }
+}

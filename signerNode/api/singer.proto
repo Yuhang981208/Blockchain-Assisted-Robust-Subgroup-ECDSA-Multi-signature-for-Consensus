@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package signer;
+option go_package = "./signer";
+
+// // 返回的签名
+// message sendSigantureRequest {
+//   bytes s = 1;
+//   bytes r = 2;
+// }
+// message sendSigantureResponse {
+
+// }
+
+// MtA部分
+message MtARequest {
+  bytes k = 1;
+  int64 index = 2;
+}
+
+message MtAResponse {
+  bytes b = 2;
+}
+
+service Signer {
+  // rpc sendSignature(sendSigantureRequest) returns (sendSigantureResponse);
+  rpc MtA(MtARequest) returns (MtAResponse);
+}

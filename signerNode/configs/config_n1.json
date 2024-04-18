@@ -1,0 +1,6 @@
+{
+  "bindAddress": "127.0.0.1:25565",
+  "ethereum": {
+    "privateKey": "10eab9589a706212820e364faf42bc162753764d56cd3388b38665be2ae44b91"
+  }
+}
